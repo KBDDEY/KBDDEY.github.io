@@ -3,10 +3,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if (mySrc === 'D:/web-projects/img/hutao.png') {
-    myImage.setAttribute ('src','D:/web-projects/img/hutao2.png');
+  if (mySrc === 'img/hutao.png') {
+    myImage.setAttribute ('src','img/hutao2.png');
   } else {
-    myImage.setAttribute ('src','D:/web-projects/img/hutao.png');
+    myImage.setAttribute ('src','/img/hutao.png');
   }
 };
 
