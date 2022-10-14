@@ -1,10 +1,10 @@
 // 设置图片切换
-let myImage = document.querySelector('img');
+let myImage = document.querySelector(img);
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute(src);
   if (mySrc === img/hutao.png) {
-    myImage.setAttribute ('src',img/hutao2.png);
+    myImage.setAttribute (src,img/hutao2.png);
   } else {
     myImage.setAttribute ('src',img/hutao.png);
   }
