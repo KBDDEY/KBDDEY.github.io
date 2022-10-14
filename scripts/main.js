@@ -13,7 +13,7 @@ myImage.onclick = function() {
 // 设置个性化欢迎信息
 // 获取新按钮和标题的引用
 let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+let myHeading = document.querySelector(h1);
 
 // 个性化欢迎信息设置函数
 function setUserName() {
