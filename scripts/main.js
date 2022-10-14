@@ -6,7 +6,7 @@ myImage.onclick = function() {
   if (mySrc === 'img/hutao.png') {
     myImage.setAttribute ('src','img/hutao2.png');
   } else {
-    myImage.setAttribute ('src','/img/hutao.png');
+    myImage.setAttribute ('src','img/hutao.png');
   }
 };
 
